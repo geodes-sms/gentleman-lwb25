@@ -80,8 +80,8 @@ Here are the concepts defined in Gentleman to model the Questionnaire Language :
   | NumberType   | int      | default value, min, max                 |
   | DateType     | date     | default value, format                   |
   | DecimalType  | decimal  | default value, precision                |
-  | CurrencyType | money    | default value, symbole, decimal         |
-  | RangeType    | range    | default value, min, max, incrément      |
+  | CurrencyType | money    | default value, symbol, decimal          |
+  | RangeType    | range    | default value, min, max, increment      |
   | ComputedType | computed | formula                                 |
 
 
