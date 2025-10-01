@@ -17,6 +17,51 @@ The QL task asks participants to implement a small DSL for **questionnaires** fe
 
 ## Our implementation
 
+### Feature Support Overview
+
+#### Syntax
+
+| Feature   | Status               | Comments |
+|-----------|----------------------|----------|
+| Syntax    | ✅ fully implemented |          |
+
+#### Execution
+
+| Feature     | Status               | Comments |
+|-------------|----------------------|----------|
+| Rendering   | ✅ fully implemented |          |
+| Propagation | ✅ fully implemented |          |
+| Saving      | ❌ not implemented   |          |
+
+#### Validation
+
+| Feature    | Status       | Comments |
+|------------|--------------|----------|
+| Names      | ✅ fully implemented |    |
+| Types      | ✅ fully implemented |    |
+| Cycles     | ❌ not implemented   |    |
+| Determinism| ❌ not implemented   |    |
+
+#### Editor
+
+| Feature       | Status               | Comments |
+|---------------|----------------------|----------|
+| Highlighting  | ✅ fully implemented |          |
+| Outline       | ⚠️ partially implemented | In Gentleman, users can visually see the hierarchy in projections, as they are container-based. Additionally, when a projection element is selected, a breadcrumb indicates the model hierarchy |
+| References    | ❌ not implemented   |          |
+| Error Marking | ⚠️ partially implemented | An error message is displayed when an error occurs in the questionnaire GUI |
+
+#### QLS
+
+| Feature         | Status               | Comments |
+|-----------------|----------------------|----------|
+| Sectioning      | ❌ not implemented   |          |
+| Pagination      | ❌ not implemented   |          |
+| Styling         | ✅ fully implemented |          |
+| Widgets         | ⚠️ partially implemented | Widgets can be fully styled using CSS, but the choice of widget is predefined in the GUI generation script. |
+| Cross-Validation| ❌ not implemented   |          |
+
+
 ### Screenshots of the implementation
 
 #### Defining the questionnaire
